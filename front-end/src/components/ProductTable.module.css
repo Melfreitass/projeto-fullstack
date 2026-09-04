@@ -1,0 +1,134 @@
+.container {
+  width: 100%;
+  overflow-x: auto;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.88rem;
+}
+
+.th {
+  padding: 12px 16px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-soft);
+  background-color: var(--bg-subtle);
+}
+
+.thRight {
+  text-align: right;
+}
+
+.tr {
+  border-bottom: 1px solid var(--border-soft);
+  transition: background-color 0.1s ease;
+}
+
+.tr:last-child {
+  border-bottom: none;
+}
+
+.tr:hover {
+  background-color: var(--bg-hover);
+}
+
+.td {
+  padding: 12px 16px;
+  vertical-align: middle;
+}
+
+.tdRight {
+  text-align: right;
+}
+
+.idText {
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: var(--text-light);
+}
+
+.nomeText {
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+.categoriaBadge {
+  display: inline-block;
+  font-size: 0.76rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-subtle);
+  color: var(--text-muted);
+}
+
+.stockBadge {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.inStock {
+  background-color: var(--success-soft);
+  color: var(--success);
+}
+
+.lowStock {
+  background-color: #fffbeb;
+  color: #b45309;
+}
+
+.outOfStock {
+  background-color: var(--danger-soft);
+  color: var(--danger);
+}
+
+.precoText {
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+.actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.actionBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+}
+
+.actionBtn:hover {
+  background-color: var(--bg-subtle);
+  color: var(--text-main);
+}
+
+.deleteBtn:hover {
+  background-color: var(--danger-soft);
+  color: var(--danger);
+}
+
+.empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-muted);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+}
